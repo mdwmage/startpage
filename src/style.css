@@ -41,26 +41,32 @@ a::after {
 .container > * { flex: 1; }
 .leftbox {
     background-color: var(--bg0);
+    flex-grow: 1;
     height: 100%;
-    margin: 2%;
+    margin: 1%;
+    align-self: center;
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
+    padding: 0;
 }
 .rightbox {
     background-color: var(--bg0);
+    flex-grow: 1.25;
     margin: 2%;
+    margin-left: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 #clock {
-    width: 25%;
+    width: 250px;
     background-color: var(--bg1);
     border-radius: 10px;
     margin: auto;
     margin-bottom: 1%;
     text-align: center;
+    overflow: hidden;
 }
 .linkscontainer {
     display: flex;
