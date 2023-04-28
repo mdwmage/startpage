@@ -54,6 +54,7 @@ a::after {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 #clock {
     width: 250px;
@@ -70,6 +71,7 @@ a::after {
     justify-content: center;
 }
 .box {
+    width: 105pt;
     display: flex;
     flex-direction: column;
     margin: 1%;
