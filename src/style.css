@@ -1,12 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Quicksand:wght@500&display=swap');
 :root {
-    --bg0: #181818; /*Main BG*/
-    --bg1: #252525; /*Alt BG*/
-    --fg0: #b9b9b9; /*Main FG*/
+    --bg0: #201F22; /*Main BG*/
+    --bg1: #312d38; /*Alt BG*/
     --fg1: #dedede; /*Alt FG*/
-    --highlight0: #368aeb; /*Dark*/
-    --highlight1: #3fc5b7; /*Light*/
-    --altlight0: #70b433;
     --link: #dbb32d;
 }
 html, body {

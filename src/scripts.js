@@ -1,10 +1,10 @@
 // display time as hh:mm
 const options = {
-    timeZone:"America/Toronto",
-    hour12 : false,
-    hour:  "2-digit",
-    minute: "2-digit",
-}
+  timeZone: "America/Toronto",
+  hour12: false,
+  hour: "2-digit",
+  minute: "2-digit",
+};
 
 var today = new Date();
 
