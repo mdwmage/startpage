@@ -2,8 +2,8 @@
 :root {
     --bg0: #201F22; /*Main BG*/
     --bg1: #312d38; /*Alt BG*/
-    --fg1: #dedede; /*Alt FG*/
-    --link: #dbb32d;
+    --fg1: whitesmoke; /*FG*/
+    --link: #dbb32d; /*<a> colour*/
 }
 html, body {
     width:100%;
