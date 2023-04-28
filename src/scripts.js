@@ -5,9 +5,7 @@ const options = {
   hour: "2-digit",
   minute: "2-digit",
 };
-
-var today = new Date();
-
-var time = today.toLocaleTimeString("en-US", options);
+let today = new Date();
+let time = today.toLocaleTimeString("en-US", options);
 
 document.getElementById("time").textContent = time;
