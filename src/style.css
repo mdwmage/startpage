@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Jost&display=swap');
 :root {
     --bg0: #201F22; /*Main BG*/
     --bg1: #312d38; /*Alt BG*/
@@ -12,7 +12,7 @@ html, body {
     padding:0;
     background-color: var(--bg0);
     color: var(--fg1);
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Jost', sans-serif;
 
 }
 h1 {
