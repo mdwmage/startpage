@@ -57,10 +57,11 @@ a::after {
     align-items: center;
 }
 #clock {
-    width: 250px;
+    width: 475px;
     background-color: var(--bg1);
     border-radius: 10px;
     margin: auto;
+    padding: 2%;
     margin-bottom: 1%;
     text-align: center;
     overflow: hidden;
