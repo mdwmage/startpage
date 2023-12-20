@@ -41,3 +41,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+a, a::after {
+    color: rgb(45, 157, 177);
+}
