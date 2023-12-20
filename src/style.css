@@ -15,33 +15,70 @@ body {
     font-family: 'Barlow Condensed', sans-serif;
 }
 
-#content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 #container {
-    margin: 0 auto;
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    padding: 2em;
     display: flex;
-    height: 100%;
-    width: 100%;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 250pt;
+    gap: 50pt;
 }
 
-#container > * {
-    flex: 0;
-    padding: auto;
+#container>* {
+    flex-grow: 1;
+}
+
+#rightbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #linkbox {
+    width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-grow: 2;
+    gap: 20pt;
 }
 
-a, a::after {
+#linkbox>* {
+    flex: 2;
+}
+
+.linkcontainer {
+    flex-grow: 1;
+    white-space: nowrap;
+    margin: 5%;
+    padding: 15pt;
+}
+
+
+a,
+a::after {
     color: rgb(45, 157, 177);
+    font-size: 1.5em;
+}
+
+h1 {
+    font-size: 2.5em;
+    /* 40px/16=2.5em */
+}
+
+h2 {
+    font-size: 2em;
+    /* 30px/16=1.875em */
+}
+
+h3 {
+    font-size: 1.75em;
+}
+
+p {
+    font-size: 1.5em;
+    /* 14px/16=0.875em */
 }
