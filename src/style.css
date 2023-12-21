@@ -2,12 +2,14 @@
 
 
 :root {
-    --bg: #140f12;
+    --bg:#24273a;
+    --fg: #cad3f5;
+    --a: #91d7e3;
 }
 
 html {
     background-color: var(--bg);
-    color: rgb(210, 224, 221);
+    color: var(--fg);
     text-align: center;
 }
 
@@ -60,7 +62,7 @@ body {
 
 a,
 a::after {
-    color: rgb(45, 157, 177);
+    color: var(--a);
     font-size: 1.5em;
 }
 
