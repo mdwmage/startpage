@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+@font-face {
+    font-family: "Maple Mono";
+    src: url(/extra/MapleMono-Regular.ttf);
+}
 
 
 :root {
@@ -14,7 +18,7 @@ html {
 }
 
 body {
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Maple Mono', monospace;
 }
 
 #container {
