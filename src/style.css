@@ -59,7 +59,7 @@ body {
 .linkcontainer {
     flex-grow: 1;
     white-space: nowrap;
-    margin: 5%;
+    margin: 2.5%;
     padding: 15pt;
 }
 
@@ -67,7 +67,7 @@ body {
 a,
 a::after {
     color: var(--a);
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
 
 h1 {
